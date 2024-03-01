@@ -34,9 +34,14 @@ h1 {
   padding: 2.5rem;
   border-radius: 24px;
 }
-p {
+p,
+li,
+td {
   color: grey;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+}
+strong {
+  color: rgb(79, 74, 74);
 }
 .image img {
   width: 100%;
@@ -53,45 +58,56 @@ p {
   margin-left: 1rem;
   color: var(--Dark-Raspberry);
 }
-.preparation_time ul li::marker{
-    color: var(--Dark-Raspberry);
-
+.preparation_time ul li::marker {
+  color: var(--Dark-Raspberry);
 }
 li {
-margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 h2 {
   font-family: var(--heading-font);
   color: var(--Nutmeg);
   font-weight: 400;
 }
-#instructions ul li{
-  line-height: 1.5rem;
+#instructions ul li {
+  line-height: 1.8rem;
 }
-#ingredients {
+#ingredients, #instructions {
   border-bottom: 1px solid var(--Light-Grey);
+  padding-bottom: 1.5rem;
 }
-.ingredients_list li::marker , .instructions_list li::marker{
-color: var(--Nutmeg);
+section{
+  padding-top: 1rem;
+}
+.ingredients_list li::marker,
+.instructions_list li::marker {
+  color: var(--Nutmeg);
+}
 
-}
 
-#nutrition td{
-    color: var(--Wenge-Brown);
-}
 #nutrition .value {
   color: var(--Nutmeg);
-  font-weight: 600;
+  font-weight: 700;
 }
 
-table{
-  border: 1px solid blue;
+table {
   width: 100%;
+  border-collapse: collapse;
 }
-table td{
-  padding: 10px;
+#nutrition table td {
+  padding: 15px;
+  font-weight: 500;
+}
+#nutrition table tr {
   border-bottom: 1px solid var(--Light-Grey);
+
 }
+#nutrition table tr:last-child {
+  border-bottom: none; /* Retire la bordure du bas de la dernière ligne */
+}
+
+
+
 .attribution {
   font-size: 11px;
   text-align: center;
