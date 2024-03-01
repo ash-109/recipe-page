@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
 
 :root {
-  --Nutmeg: hsl(14, 45%, 36%);
+  --Nutmeg: rgb(133, 70, 50);
   --Dark-Raspberry: hsl(332, 51%, 32%);
   --White: hsl(0, 0%, 100%);
   --Rose-White: hsl(330, 100%, 98%);
@@ -72,18 +72,18 @@ h2 {
 #instructions ul li {
   line-height: 1.8rem;
 }
-#ingredients, #instructions {
+#ingredients,
+#instructions {
   border-bottom: 1px solid var(--Light-Grey);
   padding-bottom: 1.5rem;
 }
-section{
+section {
   padding-top: 1rem;
 }
 .ingredients_list li::marker,
 .instructions_list li::marker {
   color: var(--Nutmeg);
 }
-
 
 #nutrition .value {
   color: var(--Nutmeg);
@@ -100,18 +100,20 @@ table {
 }
 #nutrition table tr {
   border-bottom: 1px solid var(--Light-Grey);
-
 }
 #nutrition table tr:last-child {
-  border-bottom: none; /* Retire la bordure du bas de la dernière ligne */
+  border-bottom: none;
 }
-
-
-
 .attribution {
-  font-size: 11px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
+.attribution img {
+  margin-top: 2rem;
+}
+
+.attribution img:hover {
+  cursor: pointer;
 }
