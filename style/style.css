@@ -60,6 +60,7 @@ object-fit: contain;
 .preparation_time h3 {
   margin-left: 1rem;
   color: var(--Dark-Raspberry);
+  font-size: 1.5rem;
 }
 .preparation_time ul li::marker {
   color: var(--Dark-Raspberry);
@@ -72,6 +73,7 @@ h2 {
   font-family: var(--heading-font);
   color: var(--Nutmeg);
   font-weight: 400;
+  font-size: 1.9rem;
 }
 #instructions ul li {
   line-height: 1.8rem;
