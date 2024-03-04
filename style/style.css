@@ -17,7 +17,7 @@
 }
 
 body {
-  background: var(--Light-Grey);
+  background: rgba(243, 229, 216, 1);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
