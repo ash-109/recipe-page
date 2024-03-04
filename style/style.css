@@ -45,7 +45,7 @@ td {
   font-size: 1.3rem;
 }
 strong {
-  color: rgb(79, 74, 74);
+  color: var(--Dark-Charcoal);
 }
 .container_header img {
 display: block;
