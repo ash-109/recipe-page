@@ -41,8 +41,9 @@ h1 {
 p,
 li,
 td {
-  color: grey;
+  color: rgb(110, 109, 109);
   font-size: 1.3rem;
+  font-weight: 500;
 }
 strong {
   color: var(--Dark-Charcoal);
