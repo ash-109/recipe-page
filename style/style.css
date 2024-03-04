@@ -44,7 +44,7 @@ td {
 strong {
   color: rgb(79, 74, 74);
 }
-.image img {
+.container_header img {
 display: block;
 object-fit: contain;
  width: 100%;
@@ -109,22 +109,22 @@ table {
 #nutrition table tr:last-child {
   border-bottom: none;
 }
-.attribution {
+.container_footer {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
 }
-.attribution img {
+.container_footer img {
   margin-top: 2rem;
 }
 
-.attribution img:hover {
+.container_footer img:hover {
   cursor: pointer;
 }
 
 /* Responsive */
-@media only screen and (min-width: 540px) and (max-width: 768px) {
+@media only screen and (min-width: 540px) and (max-width: 850px) {
   
   .container{
     max-width: 80%;
@@ -135,20 +135,16 @@ table {
  .container{
 margin: 0;
 max-width: 100%;
-border-radius: 0;
-padding:0 20px;
+padding: 0;
  }
 
-  .image img{
+  .container_header img{
   border-radius: 0;
   height: auto;
- width: 100vw;
- position: relative;
- left: 0;
- top: 0;
- margin-left: -20px;
-
-
+ 
+}
+.container_content{
+  padding: 30px;
 }
 li{
   padding-left: 1rem;
