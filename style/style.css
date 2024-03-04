@@ -26,6 +26,9 @@ body {
 }
 h1 {
   font-family: var(--heading-font);
+  font-weight: 500;
+  font-size: 2.5rem;
+  color: var(--Dark-Charcoal);
 }
 .container {
   margin: 5rem auto;
@@ -147,6 +150,9 @@ padding: 0;
 }
 .container_content{
   padding: 30px;
+}
+h1{
+  font-size: 2.3rem;
 }
 li{
   padding-left: 1rem;
