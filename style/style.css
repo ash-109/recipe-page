@@ -15,6 +15,7 @@
   --heading-font: "Young Serif";
   --body-font: "Outfit";
 }
+
 body {
   background: var(--Light-Grey);
   margin: 0;
@@ -44,7 +45,9 @@ strong {
   color: rgb(79, 74, 74);
 }
 .image img {
-  width: 100%;
+display: block;
+object-fit: contain;
+ width: 100%;
   border-radius: 12px;
 }
 .preparation_time {
@@ -71,6 +74,7 @@ h2 {
 }
 #instructions ul li {
   line-height: 1.8rem;
+  list-style-type: decimal;
 }
 #ingredients,
 #instructions {
@@ -116,4 +120,35 @@ table {
 
 .attribution img:hover {
   cursor: pointer;
+}
+
+/* Responsive */
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+  
+  .container{
+    max-width: 80%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+ .container{
+margin: 0;
+max-width: 100%;
+border-radius: 0;
+padding:0 20px;
+ }
+
+  .image img{
+  border-radius: 0;
+  height: auto;
+ width: 100vw;
+ position: relative;
+ left: 0;
+ top: 0;
+ margin-left: -20px;
+
+
+}
+ 
+
 }
