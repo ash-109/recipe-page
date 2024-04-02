@@ -79,9 +79,8 @@ h2 {
   font-weight: 400;
   font-size: 1.9rem;
 }
-#instructions ul li {
+#instructions ol li {
   line-height: 1.8rem;
-  list-style-type: decimal;
 }
 #ingredients,
 #instructions {
@@ -127,6 +126,7 @@ table {
 
 .container_footer img:hover {
   cursor: pointer;
+  transform: scale(1.2);
 }
 
 /* Responsive */
